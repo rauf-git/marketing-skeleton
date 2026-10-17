@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "site": {
+    "name": "Sample Agency",
+    "url": "https://example.invalid",
+    "locale": "en-IN"
+  },
+  "theme": {
+    "preset": "modern",
+    "colors": {
+      "primary": "#7c3aed",
+      "accent": "#34d399"
+    }
+  },
+  "pages": [
+    {
+      "slug": "/",
+      "title": "Home",
+      "layout": "default",
+      "sections": [
+        {
+          "id": "home-hero",
+          "type": "hero.split",
+          "version": 1,
+          "props": {
+            "eyebrow": "Independent creative studio",
+            "heading": "Digital experiences built around your next move.",
+            "description": "An example agency template configuration. Replace the copy, assets, links, and sections for each client.",
+            "primaryCta": {
+              "label": "Start a project",
+              "href": "/contact"
+            },
+            "secondaryCta": {
+              "label": "Explore services",
+              "href": "#services"
+            }
+          }
+        },
+        {
+          "id": "services",
+          "type": "features.grid",
+          "version": 1,
+          "props": {
+            "heading": "What we bring to the table",
+            "description": "Replace these examples with the client's validated service content.",
+            "items": [
+              {
+                "label": "01",
+                "title": "Strategy",
+                "description": "Clear positioning and practical digital roadmaps."
+              },
+              {
+                "label": "02",
+                "title": "Design",
+                "description": "Accessible, responsive interfaces aligned with the brand."
+              },
+              {
+                "label": "03",
+                "title": "Development",
+                "description": "Maintainable websites with a tested delivery workflow."
+              }
+            ]
+          }
+        },
+        {
+          "id": "contact-cta",
+          "type": "cta.band",
+          "version": 1,
+          "props": {
+            "heading": "Have a project in mind?",
+            "description": "Connect this CTA to the client's preferred contact or lead-capture flow.",
+            "cta": {
+              "label": "Contact us",
+              "href": "/contact"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

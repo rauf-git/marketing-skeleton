@@ -1,0 +1,14 @@
+{
+  "name": "@marketing-skeleton/renderer",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "dependencies": {
+    "@marketing-skeleton/schema": "workspace:*",
+    "@marketing-skeleton/sections": "workspace:*",
+    "react": "^19.0.0"
+  }
+}
