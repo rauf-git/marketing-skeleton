@@ -9,5 +9,8 @@
   "dependencies": {
     "@marketing-skeleton/schema": "workspace:*",
     "react": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.10"
   }
 }
